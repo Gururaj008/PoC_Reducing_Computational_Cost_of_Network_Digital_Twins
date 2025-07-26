@@ -52,16 +52,6 @@ The simulation ran for 500 timesteps and successfully demonstrated the agent's a
 *   **Accuracy:** The agent's adaptive strategy maintained a high degree of accuracy, with a final **Mean Squared Error (MSE) of only 1.1128**.
 *   **Learned Policy:** The final Q-values `[-1.0, -1.002]` show the agent successfully learned the distinct, long-term value of each action based on the trade-offs in the environment.
 
-### Visualizations
 
-The plot below shows the random path of the mobile device around the central Access Point.
-
-![Device Path in Simulated Environment](device_path.png)
-
-This plot is the key result. It shows the agent's estimated RSSI (orange) tracking the ground truth (blue), while only triggering the costly simulation (red 'x') at critical moments of change.
-
-![Agent Performance: Balancing Accuracy and Cost](agent_performance.png)
-
-## 7. Significance
 
 This Proof-of-Concept successfully demonstrates that a simple reinforcement learning agent can function as an effective, data-driven controller to manage the computational load of a digital twin. It validates the core hypothesis of the target PhD research proposal: that it is possible to **dynamically adjust the simulation sampling rate to find an optimal balance between computational efficiency and simulation accuracy**. This work provides a strong, practical foundation for developing more advanced controllers for real-world, scalable network digital twins.
